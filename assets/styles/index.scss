@@ -445,6 +445,7 @@ body {
 
             .blog-container {
                 position: relative;
+                padding: 100px 0;
                 .blog-header {
                     font-size: 30px;
                     font-weight: 400;
@@ -520,7 +521,7 @@ body {
 
         footer {
             background-image: url("../images/footer.svg");
-            min-height: 100vh;
+            // min-height: 100vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -573,6 +574,84 @@ body {
                         
                     }
                 }
+            }
+
+            .footer-detail {
+                display: flex;
+                flex-direction: column;
+                color: #b6c197;
+                padding-top: 180px;
+
+                .company-contact {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    padding: 40px 0;
+
+                    .phone {
+                        margin-right: 90px;
+                    }
+
+                    .contact-header {
+                        padding: 15px 0;
+                    }
+
+                    .contact-detail {
+                        color: #ffffff;
+                    }
+                }
+
+                .company-service-link {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    border-top: 1px solid #b6c197;
+                    border-bottom: 1px solid #b6c197;
+                    padding: 40px 0;
+
+                    .service-link-list {
+                        display: flex;
+                        flex-direction: column;
+
+                        .service-header {
+                            color: #ffffff;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 38px;
+                            text-transform: uppercase;
+                            padding: 5px 0;
+                        }
+
+                        ul {
+                            display: flex;
+                            flex-direction: column;
+                            
+                            li {
+                                list-style: none;
+                                padding: 10px 0;
+
+                                .email {
+                                     a {
+                                        color: #ffffff;
+                                     }
+                                }
+
+                                a {
+                                    color: #b6c197;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer-company-logo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 0;
             }
         }
     }

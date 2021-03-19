@@ -491,6 +491,7 @@ body .main-container main .project-container .project-display .middle-list .proj
 
 body .main-container main .blog-container {
   position: relative;
+  padding: 100px 0;
 }
 
 body .main-container main .blog-container .blog-header {
@@ -584,7 +585,6 @@ body .main-container main .blog-container .blog-display .blog-list:hover {
 
 body .main-container footer {
   background-image: url("../images/footer.svg");
-  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -648,5 +648,119 @@ body .main-container footer .footer-banner .footer-banner-link a span img:hover 
   transition: linear 300ms;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+body .main-container footer .footer-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #b6c197;
+  padding-top: 180px;
+}
+
+body .main-container footer .footer-detail .company-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 40px 0;
+}
+
+body .main-container footer .footer-detail .company-contact .phone {
+  margin-right: 90px;
+}
+
+body .main-container footer .footer-detail .company-contact .contact-header {
+  padding: 15px 0;
+}
+
+body .main-container footer .footer-detail .company-contact .contact-detail {
+  color: #ffffff;
+}
+
+body .main-container footer .footer-detail .company-service-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #b6c197;
+  border-bottom: 1px solid #b6c197;
+  padding: 40px 0;
+}
+
+body .main-container footer .footer-detail .company-service-link .service-link-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .main-container footer .footer-detail .company-service-link .service-link-list .service-header {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 38px;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+body .main-container footer .footer-detail .company-service-link .service-link-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .main-container footer .footer-detail .company-service-link .service-link-list ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+body .main-container footer .footer-detail .company-service-link .service-link-list ul li .email a {
+  color: #ffffff;
+}
+
+body .main-container footer .footer-detail .company-service-link .service-link-list ul li a {
+  color: #b6c197;
+  text-decoration: none;
+}
+
+body .main-container footer .footer-company-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0;
 }
 /*# sourceMappingURL=index.css.map */
